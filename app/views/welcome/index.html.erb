@@ -1,0 +1,11 @@
+<h1>My Travels Diary</h1>
+<div>
+<h1>My favourite websites</h1>
+  <% for url, name in @webside %>
+    <li><a href="<%= url %>"><%= name %></a></li>
+  <% end %>
+</div>
+<button>
+  <%= link_to("Go to entries", entries_path) %>
+</button>
+<img src="https://woostercreative.com/wp-content/uploads/2018/07/july_2028_best_websites_okc_website_designer.png" />
