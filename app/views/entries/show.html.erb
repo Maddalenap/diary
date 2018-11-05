@@ -1,3 +1,4 @@
+<h1><%= link_to("Travels", entries_path) %></h1>
 <div>
   <h2><%= @entry.title %></h2>
   <p><%= @entry.date %></p>
@@ -5,3 +6,4 @@
 </div>
   <button><%= link_to("Back to all entries", entries_path) %></button>
   <button><%= link_to("Edit this entry", edit_entry_path(@entry)) %></button>
+  <button><%= link_to("Delete this entry", @entry, data:{confirm: 'Are you sure?'}, method: :delete) %></button>
