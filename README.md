@@ -26,4 +26,3 @@ You can also use for debugging
 rails console 
 rails routes
 ```
-# diary
