@@ -94,12 +94,12 @@ input[type='submit']:hover{
 }
 
 button{
-  background-color: #BC8F8F;
+  background-color: #9ACD32;
   display: block;
   margin: 0 auto;
   font-size: 25px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 90px;
 }
 
@@ -108,11 +108,8 @@ form{
 }
 
 img{
-  margin-left: 180px;
-  margin-right: 180px;
-  margin-top: 50px;
-  margin-bottom: 50px;
   display: block;
+  margin: 0 auto;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2),
       0 25px 50px 0 rgba(0, 0, 0, 0.15);
 }
