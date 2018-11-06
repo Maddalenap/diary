@@ -1,25 +1,29 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This's my diary application.
 
-Things you may want to cover:
+# Setup
 
-* Ruby version
+Make sure you have Ruby and Rails installed.
 
-* System dependencies
+Run in your terminal
 
-* Configuration
+```
+git clone git@github.com:Maddalenap/diary.git
 
-* Database creation
+cd diary
 
-* Database initialization
+bundle install
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+rails db:migrate
+```
+And run with
+```
+rails server
+```
+You can also use for debugging
+```
+rails console 
+rails routes
+```
 # diary
